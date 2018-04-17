@@ -1,0 +1,524 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Document SKM</title>
+<style type="text/css">
+<!--
+table.morpion{ 
+    font-size: 7pt;
+    border-width: 1px;
+	border-style: solid;
+	font-family:Arial, Helvetica, sans-serif;
+	border-color: #999999;
+	border-collapse: collapse;
+}
+table.morpion th{
+	color: #FFFFFF;
+	font-size: 7pt;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 0.5em;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #969BA5;
+	border-collapse: collapse;
+	background-color: #265180;
+}
+table.morpion td
+{
+	font-size: 7pt;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #969BA5;
+	border-collapse: collapse;
+}
+.list {
+	border-collapse: collapse;
+	width: 100%;
+	border-top: 1px solid #BFBFBF;
+	border-left: 1px solid #BFBFBF;
+	margin-bottom: 20px;
+	font-size: 7pt;
+	padding-top:5px;
+}
+.list td {
+	border-right: 1px solid #DDDDDD;
+	border-bottom: 1px solid #DDDDDD;
+}
+.list thead td {
+	background-color: #E5E5E5; 
+	padding: 0px 5px; text-transform: capitalize;
+}
+.list thead td a, .list thead td {
+	text-decoration: none; 
+	color: #000000;
+	font-weight: bold;
+	
+}
+.list tbody a {
+	text-decoration: none;
+}
+.list tbody td {
+	vertical-align: middle;
+	padding: 0px 5px;
+}
+.list tbody tr:odd {
+	background: #FFFFFF;
+}
+.list tbody tr:even {
+	background: #E4EEF7;
+}
+.list .left {
+	text-align: left;
+	padding: 7px;
+}
+.list .right {
+	text-align: right;
+	padding: 7px;
+}
+.list .center {
+	text-align: center;
+	padding: 7px;
+}
+.list .asc {
+	padding-right: 15px;
+	background: url('images/asc.png') right center no-repeat;
+}
+.list .desc {
+	padding-right: 15px;
+	background: url('images/desc.png') right center no-repeat;
+}
+
+
+-->
+</style>
+</head>
+
+<body>
+
+
+
+  <table border="0" style="width: 100%;">
+    <tr style="width: 100%;"> 
+      <td style="width: 20%;border-width: 1px;border-style: solid;border-color: #969BA5;  border-collapse: collapse;">
+			<table border="0" style="width: 100%;" >
+				<tr>
+					<td style="width: 100%; text-align:center"><img src="1.jpg" height="80"/></td> 
+				</tr>
+				<tr>
+					<td style="width: 100%; text-align:center"> <span style="font-size: 9pt;align:center;"><b>PEMERINTAH PROVINSI JATENG</b></span></td>
+				</tr>
+				<tr>
+				<td style="width: 100%; text-align:center"> <span style="font-size: 9pt;align:center;"><b>&nbsp;</b></span></td>
+				</tr>
+      
+			</table>
+		</td>
+
+
+
+
+			<td style="width: 60%;border-width: 1px;border-style: solid;border-color: #969BA5;	border-collapse: collapse;">
+	<table border="0" style="width: 100%;" >
+
+        <tr>
+          <td  align="center" style="width: 100%;"><span style="font-size: 9pt;font-weight: bold; text-align:center">&nbsp;</span></td>
+        </tr>
+    	  <tr>
+        	<td  align="center" style="width: 100%;"><span style="font-size: 9pt;font-weight: bold; text-align:center">KUISIONER</span></td>
+  		  </tr>
+    	<tr>
+        	<td  align="center" style="width: 100%;"><span style="font-size: 9pt;font-weight: bold; text-align:center">SURVEY KEPUASAN MASYARAKAT (SKM)</span></td>
+      	</tr>
+      
+      	<tr>
+        	<td  align="center" style="width: 100%;"><span style="font-size: 9pt;font-weight: bold; text-align:center">PANTI PELAYANAN SOSIAL WANITA WAYODYATAMA SURAKARTA</span></td>
+      	</tr>
+      	<tr>
+        	<td  align="center" style="width: 100%;">&nbsp;</td>
+      	</tr>
+      	<tr>
+        	<td  align="left" style="width: 100%;">
+     <table border="0" style="width: 100%;">
+        <tr style="width: 100%;">
+            <td style="width: 30%;">
+        	    <span style="font-size: 9pt;font-weight: bold; text-align:left">&nbsp;</span>
+                
+            </td>
+            <td>
+                <span style="font-size: 9pt;font-weight: bold; text-align:left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>        
+            </td>
+        </tr>
+     </table>
+        
+ 	    	</td>
+      	</tr>
+    </table>
+			</td>
+			<td style="width: 20%;border-width: 1px;border-style: solid;border-color: #969BA5;	border-collapse: collapse;">
+	<table border="0" style="width: 100%;" >
+	   	<tr>
+    	    <td  align="center" style="width: 100%;"><span style="font-size: 14pt;font-weight: bold; text-align:center">RESPONDEN PENERIMA MANFAAT</span>
+    	    </td>
+      	</tr>
+      	<tr>
+        	<td  align="left" style="width: 100%;"><span style="font-size: 9pt;text-align:center">&nbsp;</span>
+        	</td>
+      	</tr>
+      	<tr>
+        	<td  align="left" style="width: 100%;"><span style="font-size: 9pt;text-align:center">&nbsp;</span></td>
+      	</tr>
+      	<tr>
+      	  	<td  align="center" style="width: 100%;">&nbsp;</td>
+      	</tr>
+      	<tr>
+        	<td  align="center" style="width: 100%;">&nbsp;</td>
+      	</tr>	
+    </table>
+			</td>
+		</tr>
+
+    <tr style="width: 100%;">
+      <td colspan="3" >
+        <span style="font-size: 9pt;text-align:left">&nbsp;</span> 
+        <table border="1" style="width: 100%;">
+                <tr>
+                  <td width="5%"  align="center" style="width: 5%;"><span style="font-size: 12pt;text-align:center"><b>No</b></span></td>
+                  <td width="55%"  align="center" style="width: 55%;"><span style="font-size: 12pt;text-align:center"><b>Pertanyaan</b></span></td>
+                  <td width="20%"  align="center" style="width: 20%;"><span style="font-size: 12pt;text-align:center"><b>Kinerja/Kenyataannya</b></span></td>
+                  <td width="20%"  align="center" style="width: 20%;"><span style="font-size: 12pt;text-align:center"><b>Tingkat Kepentingan</b></span></td>
+                </tr>
+                <tr>
+                  <td width="5%"  align="center" style="width: 5%;"><span style="font-size: 12pt;text-align:center">1.</span></td>
+                  <td width="55%"  align="left" style="width: 55%;"><span style="font-size: 12pt;text-align:left">Bagaimana Pendapat Bpk / Ibu / Sdr tentang <b>kemudahan syarat yang harus dipenihi dalam pengurusan suatu jenis pelayanan, baik persyaratan teknik maupun administratif </b> pada unit pelayanan ini ?</span></td>
+                  <td width="20%"  align="left" style="width: 20%;"><span style="font-size: 12pt;text-align:left">a. Tidak mudah <br>
+                    b. Kurang mudah <br>
+                    c. Mudah <br>
+                  d. Sangat Mudah</span></td>
+                  <td width="20%"  align="left" style="width: 20%;"><span style="font-size: 12pt;text-align:left">
+                    a. Tidak penting <br>
+                    b. Kurang penting <br>
+                    c. Penting <br>
+                    d. Sangat Penting</span></td>
+                </tr>
+                <tr style="width: 100%;">
+                  <td colspan="4" >
+                    <table border="0" style="width: 100%;">
+                      <tr>
+                        <td width="100%"  align="left" style="width: 100%;"><span style="font-size: 12pt;text-align:left">Saran / Masukan :<br></span></td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td width="5%"  align="center" style="width: 5%;"><span style="font-size: 12pt;text-align:center">2.</span></td>
+                  <td width="55%"  align="left" style="width: 55%;"><span style="font-size: 12pt;text-align:left">Bagaimana Pendapat Bpk / Ibu / Sdr tentang <b>prosedur atau tata cara pelayanan yang dibekukan bagi petugas dan masyarakat, termasuk penanganan pengaduan </b> pada unit pelayanan ini ?</span></td>
+                  <td width="20%"  align="left" style="width: 20%;"><span style="font-size: 12pt;text-align:left">a. Tidak mudah <br>
+                    b. Kurang mudah <br>
+                    c. Mudah <br>
+                  d. Sangat Mudah</span></td>
+                  <td width="20%"  align="left" style="width: 20%;"><span style="font-size: 12pt;text-align:left">a. Tidak penting <br>
+                    b. Kurang penting <br>
+                    c. Penting <br>
+                  d. Sangat Penting</span></td>
+                </tr>
+                <tr style="width: 100%;">
+                  <td colspan="4" >
+                    <table border="0" style="width: 100%;">
+                      <tr>
+                        <td width="100%"  align="left" style="width: 100%;"><span style="font-size: 12pt;text-align:left">Saran / Masukan :                          <br> <br></span></td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td width="5%"  align="center" style="width: 5%;"><span style="font-size: 12pt;text-align:center">3.</span></td>
+                  <td width="55%"  align="left" style="width: 55%;"><span style="font-size: 12pt;text-align:left">Bagaimana Pendapat Bpk / Ibu / Sdr tentang <b>jangka waktu yang diperlukan untuk menyelesaikan seluruh proses pelayanan dari setiap jenis pelayanan</b> pada unit pelayanan ini ?</span></td>
+                  <td width="20%"  align="left" style="width: 20%;"><span style="font-size: 12pt;text-align:left">a. Tidak cepat / terlalu lama <br>
+                    b. Kurang cepat / cukup lama <br>
+                    c. cepat <br>
+                  d. Sangat cepat</span></td>
+                  <td width="20%"  align="left" style="width: 20%;"><span style="font-size: 12pt;text-align:left">a. Tidak penting <br>
+                    b. Kurang penting <br>
+                    c. Penting <br>
+                  d. Sangat Penting</span></td>
+                </tr>
+                <tr style="width: 100%;">
+                  <td colspan="4" >
+                    <table border="0" style="width: 100%;">
+                      <tr>
+                        <td width="100%"  align="left" style="width: 100%;"><span style="font-size: 12pt;text-align:left">Saran / Masukan : <br>
+                          <br> <br> </span></td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td width="5%"  align="center" style="width: 5%;"><span style="font-size: 12pt;text-align:center">4.</span></td>
+                  <td width="55%"  align="left" style="width: 55%;"><span style="font-size: 12pt;text-align:left">Biaya Pelayanan ?</span></td>
+                  <td width="20%"  align="left" style="width: 20%;"><span style="font-size: 12pt;text-align:left">a. Gratis<br>
+                    b. Membayar<br></span></td>
+                  <td width="20%"  align="left" style="width: 20%;"><span style="font-size: 12pt;text-align:left">&nbsp;<br></span></td>
+                </tr>
+                <tr style="width: 100%;">
+                  <td colspan="4" >
+                    <table border="0" style="width: 100%;">
+                      <tr>
+                        <td width="100%"  align="left" style="width: 100%;"><span style="font-size: 12pt;text-align:left">Saran / Masukan : <br>
+                          <br> <br> </span></td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td width="5%"  align="center" style="width: 5%;"><span style="font-size: 12pt;text-align:center">5.</span></td>
+                  <td width="55%"  align="left" style="width: 55%;"><span style="font-size: 12pt;text-align:left">Bagaimana Pendapat Bpk / Ibu / Sdr tentang program kegiatan pelayanan yang telah ditetapkan pada unit pelayanan ini ? <br>
+                    <br>
+                  ( Pelatihan, pendampingan, konseling)</span></td>
+                  <td width="20%"  align="left" style="width: 20%;"><span style="font-size: 12pt;text-align:left">a. Sangat kurang <br>
+                    b. Kurang <br>
+                    c. Sudah lengkap namun perlu dikembangkan <br>
+                    d. Sangat sangat lengkap</span></td>
+                  <td width="20%"  align="left" style="width: 20%;"><span style="font-size: 12pt;text-align:left">a. Tidak penting <br>
+                    b. Kurang penting <br>
+                    c. Penting <br>
+                    d. Sangat Penting</span></td>
+                </tr>
+                <tr style="width: 100%;">
+                  <td colspan="4" >
+                    <table border="0" style="width: 100%;">
+                      <tr>
+                        <td width="100%"  align="left" style="width: 100%;"><span style="font-size: 12pt;text-align:left">Saran / Masukan : <br>
+                          <br> <br> </span></td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td width="5%"  align="center" style="width: 5%;"><span style="font-size: 12pt;text-align:center">6.</span></td>
+                  <td width="55%"  align="left" style="width: 55%;"><span style="font-size: 12pt;text-align:left">Bagaimana Pendapat Bpk / Ibu / Sdr tentang <b> Kemampuan dan Ketrampilan </b> petugas dalam memberikan pelayanan pada unit pelayanan ini ?</span></td>
+                  <td width="20%"  align="left" style="width: 20%;"><span style="font-size: 12pt;text-align:left">
+                    a. Tidak kompeten<br>
+                    b. Kurang kompeten <br>
+                    c. kompeten<br>
+                    d. Sangat kompeten</span></td>
+                  <td width="20%"  align="left" style="width: 20%;"><span style="font-size: 12pt;text-align:left">
+                    a. Tidak penting <br>
+                    b. Kurang penting <br>
+                    c. Penting <br>
+                    d. Sangat Penting</span></td>
+                </tr>
+                <tr style="width: 100%;">
+                  <td colspan="4" >
+                    <table border="0" style="width: 100%;">
+                      <tr>
+                        <td width="100%"  align="left" style="width: 100%;"><span style="font-size: 12pt;text-align:left">Saran / Masukan : <br>
+                          <br> <br> </span></td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td width="5%"  align="center" style="width: 5%;"><span style="font-size: 12pt;text-align:center">7.</span></td>
+                  <td width="55%"  align="left" style="width: 55%;"><span style="font-size: 12pt;text-align:left">Bagaimana Pendapat Bpk / Ibu / Sdr tentang <b> sikap petugas dalam memberikan </b>  pelayanan pada unit pelayanan ini ?</span></td>
+                  <td width="20%"  align="left" style="width: 20%;"><span style="font-size: 12pt;text-align:left">
+                    a. Tidak Sopan / ramah<br>
+                    b. Kurang Sopan / ramah<br>
+                    c. Sopan dan ramah<br>
+                    d. Sangat Sopan / ramah</span></td>
+                  <td width="20%"  align="left" style="width: 20%;"><span style="font-size: 12pt;text-align:left">
+                    a. Tidak penting <br>
+                    b. Kurang penting <br>
+                    c. Penting <br>
+                    d. Sangat Penting</span></td>
+                </tr>
+                <tr style="width: 100%;">
+                  <td colspan="4" >
+                    <table border="0" style="width: 100%;">
+                      <tr>
+                        <td width="100%"  align="left" style="width: 100%;"><span style="font-size: 12pt;text-align:left">Saran / Masukan : <br>
+                          <br> <br> </span></td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td width="5%"  align="center" style="width: 5%;"><span style="font-size: 12pt;text-align:center">8a.</span></td>
+                  <td width="55%"  align="left" style="width: 55%;"><span style="font-size: 12pt;text-align:left">Bagaimana Pendapat Bpk / Ibu / Sdr tentang informasi <b> pernyataan kesanggupan dan kewajiban dari unit pelayanan untuk melaksanakan pelayanan sesuai dengan standar pelayanan</b>pada unit pelayanan ini ?</span></td>
+                  <td width="20%"  align="left" style="width: 20%;"><span style="font-size: 12pt;text-align:left">
+                    a. Tidak ada informasi<br>
+                    b. Informasi kurang jelas<br>
+                    c. Informasi jelas<br>
+                    d. Sangat jelas informasinya</span></td>
+                  <td width="20%"  align="left" style="width: 20%;"><span style="font-size: 12pt;text-align:left">
+                    a. Tidak penting <br>
+                    b. Kurang penting <br>
+                    c. Penting <br>
+                    d. Sangat Penting</span></td>
+                </tr>
+                <tr style="width: 100%;">
+                  <td colspan="4" >
+                    <table border="0" style="width: 100%;">
+                      <tr>
+                        <td width="100%"  align="left" style="width: 100%;"><span style="font-size: 12pt;text-align:left">Saran / Masukan : <br>
+                          <br> <br> </span></td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td width="5%"  align="center" style="width: 5%;"><span style="font-size: 12pt;text-align:center">8b.</span></td>
+                  <td width="55%"  align="left" style="width: 55%;"><span style="font-size: 12pt;text-align:left">Bagaimana Pendapat Bpk / Ibu / Sdr tentang <b>kesesuaian pelaksanaan pelayanan dengan standar pelayanan yang ditetapkan</b>pada unit pelayanan ini ?</span></td>
+                  <td width="20%"  align="left" style="width: 20%;"><span style="font-size: 12pt;text-align:left">
+                    a. Tidak ditanggapi dan tidak ditindaklanjuti dan kurang ditindaklanjuti<br>
+                    b. Kurang ditanggapi dan kurang ditindaklanjuti<br>
+                    c. Ditanggapi dan ditindaklanjuti<br>
+                    d. Selalu ditanggapi dan ditindaklanjuti</span></td>
+                  <td width="20%"  align="left" style="width: 20%;"><span style="font-size: 12pt;text-align:left">
+                    a. Tidak penting <br>
+                    b. Kurang penting <br>
+                    c. Penting <br>
+                    d. Sangat Penting</span></td>
+                </tr>
+                <tr style="width: 100%;">
+                  <td colspan="4" >
+                    <table border="0" style="width: 100%;">
+                      <tr>
+                        <td width="100%"  align="left" style="width: 100%;"><span style="font-size: 12pt;text-align:left">Saran / Masukan : <br>
+                          <br> <br> </span></td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td width="5%"  align="center" style="width: 5%;"><span style="font-size: 12pt;text-align:center">9.</span></td>
+                  <td width="55%"  align="left" style="width: 55%;"><span style="font-size: 12pt;text-align:left">Bagaimana Pendapat Bpk / Ibu / Sdr tentang <b>penanganan pengaduan dan tindak lanjutnya</b>pada unit pelayanan ini ?</span></td>
+                  <td width="20%"  align="left" style="width: 20%;"><span style="font-size: 12pt;text-align:left">
+                    a. Tidak ditanggapi dan tidak ditindaklanjuti dan kurang ditindaklanjuti<br>
+                    b. Kurang ditanggapi dan kurang ditindaklanjuti<br>
+                    c. Ditanggapi dan ditindaklanjuti<br>
+                    d. Selalu ditanggapi dan ditindaklanjuti</span></td>
+                  <td width="20%"  align="left" style="width: 20%;"><span style="font-size: 12pt;text-align:left">
+                    a. Tidak penting <br>
+                    b. Kurang penting <br>
+                    c. Penting <br>
+                    d. Sangat Penting</span></td>
+                </tr>
+                <tr style="width: 100%;">
+                  <td colspan="4" >
+                    <table border="0" style="width: 100%;">
+                      <tr>
+                        <td width="100%"  align="left" style="width: 100%;"><span style="font-size: 12pt;text-align:left">Saran / Masukan : <br>
+                          <br> <br> </span></td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td width="5%"  align="center" style="width: 5%;"><span style="font-size: 12pt;text-align:center">10.</span></td>
+                  <td width="55%"  align="left" style="width: 55%;"><span style="font-size: 12pt;text-align:left">Bagaimana Pendapat Bpk / Ibu / Sdr tentang <b>sarana dan prasarana atau peralatan pelatihan ketrampilan</b>pada unit pelayanan ini ?</span></td>
+                  <td width="20%"  align="left" style="width: 20%;"><span style="font-size: 12pt;text-align:left">
+                    a. Tidak memadahi<br>
+                    b. Kurang memadahi<br>
+                    c. Memadahi<br>
+                    d. Sangat memadahi</span></td>
+                  <td width="20%"  align="left" style="width: 20%;"><span style="font-size: 12pt;text-align:left">
+                    a. Tidak penting <br>
+                    b. Kurang penting <br>
+                    c. Penting <br>
+                    d. Sangat Penting</span></td>
+                </tr>
+                <tr style="width: 100%;">
+                  <td colspan="4" >
+                    <table border="0" style="width: 100%;">
+                      <tr>
+                        <td width="100%"  align="left" style="width: 100%;"><span style="font-size: 12pt;text-align:left">Saran / Masukan : <br>
+                          <br> <br> </span></td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="4" >
+                    <table border="0" style="width: 100%;">
+                      <tr>
+                        <td width="5%"  align="center" style="width: 5%;"><span style="font-size: 12pt;text-align:center">11.</span></td>
+                        <td width="95%"  align="left" style="width: 95%;"><span style="font-size: 12pt;text-align:left">Menurut Bpk / Ibu / Sdr prioritas yang perlu diperhatikan untuk mendapatkan pelayanan terbaik ; ( urutkan 1 - 9 menurut prioritas )</span></td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr> 
+                  <td colspan="4" >
+                    <table border="0" style="width: 100%;">
+                      <tr>
+                        <td width="5%"  align="center" style="width: 5%;"><span style="font-size: 12pt;text-align:center">&nbsp;</span></td>
+                        <td width="75%"  align="left" style="width: 75%;"><span style="font-size: 12pt;text-align:left">
+                        a. Kemudahan syarat pelayanan<br>
+                        b. Kemudahan prosedur pelayanan<br>
+                        c. Kecepatan/ketepatan waktu pelayanan<br>
+                        d. Biaya / Tarif <br>
+                        e. Spesifikasi jenis pelayanan <br>
+                        f. Kompetensi pelaksana <br>
+                        g. Kesopanan / keramahan petugas <br>
+                        h. Adanya standart pelayanan dan kesesuaian pelaksanaannya <br>
+                        i. Penanganan pengaduan, saran dan masukan</span></td>
+                        <td width="20%"  align="left" style="width: 20%;"><span style="font-size: 12pt;text-align:left">
+                        ....................................<br>
+                        ....................................<br>
+                        ....................................<br>
+                        ....................................<br>
+                        ....................................<br>
+                        ....................................<br>
+                        ....................................<br>
+                        ....................................<br>
+                        ....................................<br>
+                        </span></td> 
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td colspan="4" >
+                    <table border="0" style="width: 100%;">
+                      <tr>
+                        <td width="5%"  align="center" style="width: 5%;"><span style="font-size: 12pt;text-align:center">12.</span></td>
+                        <td width="95%"  align="left" style="width: 95%;"><span style="font-size: 12pt;text-align:left">Saran Keseluruhan dari Bpk / Ibu / Sdr untuk perbaikan pelayanan pada unit ini ?</span></td>
+
+                      </tr>
+                      <tr>
+                        <td width="5%"  align="center" style="width: 5%;"><span style="font-size: 12pt;text-align:center">&nbsp;</span></td>
+                        <td width="95%"  align="left" style="width: 95%;"><span style="font-size: 12pt;text-align:left">...................................................................................................................................................................................................................................................................................................................................................................................................<br>
+                          ...................................................................................................................................................................................................................................................................................................................................................................................................<br>
+
+                          ...................................................................................................................................................................................................................................................................................................................................................................................................<br>
+
+                          ...................................................................................................................................................................................................................................................................................................................................................................................................<br>
+
+                          ...................................................................................................................................................................................................................................................................................................................................................................................................<br>
+
+                          ...................................................................................................................................................................................................................................................................................................................................................................................................<br>
+
+                          ...................................................................................................................................................................................................................................................................................................................................................................................................<br>
+
+                          ...................................................................................................................................................................................................................................................................................................................................................................................................<br>
+                        
+                          ...................................................................................................................................................................................................................................................................................................................................................................................................<br></span></td>
+
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+            </tr>         
+          </table>
+        </td>
+      </tr>
+    </tr>
+  </table>
+</body>
+</html>
